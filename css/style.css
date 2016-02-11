@@ -9,7 +9,7 @@ header{background-color: chocolate;
     width:100%;
     height: 10%;
     text-align: center;
-    padding-top: 5px;
+    padding-bottom: 5px;
     clear: both;
 }
 
@@ -17,17 +17,19 @@ div{width:calc(100%/3);
 height: calc(100%/2);
 float: left;
 }
-/*#ltop{background-color
+#ltop{background-color
     :red;
     border: solid 5px green;
     width:50%;
     height: cal(100%/2);
     margin:0;
     padding:10px;
-    float: left;
+    float: left top;
     
     
 }
+
+
 
 #lbottom{background-color:white;
 border: solid 5px lime;
@@ -35,8 +37,8 @@ width:cal(100%/3);
 height: cal(100%/2);
     margin:0;
     padding:10px;
-    float: left;
-}*/
+    float: left bottom;
+}
 
 #mid{background-color: blue;
     width:calc(100%/3);
@@ -57,7 +59,15 @@ height: cal(100%/2);
     
 }
 
-footer{background-color: purple;}
+footer{background-color: salmon;
+padding-top: 5px;
+clear:both;
+text-align: center;
+height: 10px;
+width:100% ;
+}
+
+
 
 
 
