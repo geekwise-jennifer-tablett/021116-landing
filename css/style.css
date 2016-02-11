@@ -5,9 +5,13 @@ body{background-color: oldlace;
     font-size: 62.5%
 }
 
+main{background-color: aqua;
+height: 100%;
+width: 75%;}
+
 header{background-color: chocolate;
     width:100%;
-    height: 10%;
+    height: 25%;
     text-align: center;
     padding-bottom: 5px;
     clear: both;
@@ -16,15 +20,17 @@ header{background-color: chocolate;
 div{width:calc(100%/3);
 height: calc(100%/2);
 float: left;
+    box-sizing: border-box;
 }
 #ltop{background-color
     :red;
     border: solid 5px green;
-    width:50%;
-    height: cal(100%/2);
+    width:calc(100%/3);
+    height: 250px;
     margin:0;
     padding:10px;
-    float: left top;
+    float: left;
+    box-sizing: border-box;
     
     
 }
@@ -33,29 +39,32 @@ float: left;
 
 #lbottom{background-color:white;
 border: solid 5px lime;
-width:cal(100%/3);
-height: cal(100%/2);
+width:calc(100%/3);
+height:250px;
     margin:0;
     padding:10px;
-    float: left bottom;
+    float: left;
+    box-sizing: border-box;
 }
 
 #mid{background-color: blue;
     width:calc(100%/3);
-    height: 100%;
-    margin:0;
-    padding:10px;
-    float: left;
-    text-align: center;
-    
-}
-
-#right{background-color: orange;width:calc(100%/3);
-    height: 100%;
+    height: 500px;
     margin:0;
     padding:10px;
     float: right;
     text-align: center;
+    box-sizing: border-box;
+    
+}
+
+#right{background-color: orange;width:calc(100%/3);
+    height: 500px;
+    margin:0;
+    padding:10px;
+    float: right;
+    text-align: center;
+    box-sizing: border-box;
     
 }
 
